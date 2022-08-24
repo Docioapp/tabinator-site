@@ -1,8 +1,44 @@
 .backdrop {
   background-color: #2979FF;
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  padding-bottom: 4%;
+  padding-top: 8%;
 }
 
+.halfWidthDiv {
+  flex: 1;
+  margin: 20px;
+  margin-left: 12%;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  color: #fff;
+  font-size: 38px;
+  font-weight: 500;
+  margin-bottom: 2%;
+}
+
+.button {
+  width: 70%;
+  height: 48px;
+  border-radius: 0px;
+}
+
+.text {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+}
+.twoBox {
+  margin-top: 8%;
+  display: flex;
+  flex-direction: row-reverse;
+}
 .body {
   padding: 5rem 0;
   flex: 1;

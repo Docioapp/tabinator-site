@@ -1,0 +1,44 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 4%;
+}
+
+.fheader {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: 400;
+  align-self: center;
+}
+
+.subHeading {
+  font-size: 20px;
+  font-weight: 300;
+  align-self: center;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  margin: 10%;
+}
+
+.topLeft {
+  flex: 1;
+}
+
+.topRight {
+  flex: 1;
+}
+
+.bottomLeft {
+  flex: 1;
+}
+
+.bottomRight {
+  flex: 1;
+}
