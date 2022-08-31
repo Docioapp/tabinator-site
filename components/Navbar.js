@@ -11,7 +11,7 @@ export default function TNavbar({ title }) {
           <Navbar.Brand href="#home" className={styles.title}>{title}</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Nav.Link href="#pricing">Plans</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

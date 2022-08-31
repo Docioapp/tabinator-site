@@ -2,6 +2,7 @@ import Head from 'next/head'
 import TNavbar from '@components/Navbar'
 import Footer from '@components/Footer'
 import Banner from '@components/Banner'
+import Message from '@components/Message'
 import Features from '@components/Features'
 import Pricing from '@components/Pricing'
 
@@ -18,6 +19,7 @@ export default function Home() {
       <TNavbar title="Tabinator" />
 
       <Banner/>
+      <Message/>
       <Features/>
       <Pricing/>
       <Footer/>

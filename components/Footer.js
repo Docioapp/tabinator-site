@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <>
       <footer className={styles.footer}>
-        Made with <img src="/netliheart.svg" alt="Netlify Logo" className={styles.logo} /> for you
+        Copyright 2022 Tabinator by Docio Cloud. All Rights Reserved.
       </footer>
     </>
   )
