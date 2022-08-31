@@ -9,18 +9,34 @@ export default function Features() {
       </div>
       <div className={styles.section}>
         <div className={styles.topLeft}>
-          T1
+          <img src="/Duplicates.png"/>
         </div>
         <div className={styles.topRight}>
-          T2
+          <div style={{"width": "75%"}}>
+            <h2>Duplicate Tabs</h2>
+            <div className={styles.text}>
+              There are at least 10 sites which one browses on daily basis which ultimately end stacking up into a pile of un-used tabs.
+            </div>
+            <br/>
+            <div className={styles.text}>
+              With tabinator one can easily terminate them with a single click.
+            </div>
+          </div>
         </div>
       </div>
       <div className={styles.section}>
         <div className={styles.bottomLeft}>
-          B1
+          <div style={{"width": "75%"}}>
+            <h2>Old & Unused Tabs</h2>
+            <div className={styles.text}>
+              Every day we browse many tabs which end up as ‍to be <i>read....‍</i>
+              <br/><br/>
+              Keep track of old tabs, close or bookmark them with ease.
+            </div>
+          </div>
         </div>
         <div className={styles.bottomRight}>
-          B2
+          <img src="/OldTabs.png"/>
         </div>
       </div>
     </div>

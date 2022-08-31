@@ -6,7 +6,7 @@ import styles from './Navbar.module.css'
 
 export default function TNavbar({ title }) {
   return (
-      <Navbar bg="dark" variant="dark" style={{width: "100%"}}>
+      <Navbar bg="light" style={{width: "100%"}}>
         <Container style={{flexDirection: "row", paddingLeft:"1"}}>
           <Navbar.Brand href="#home" className={styles.title}>{title}</Navbar.Brand>
           <Nav className="me-auto">

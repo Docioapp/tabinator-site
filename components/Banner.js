@@ -13,11 +13,11 @@ export default function Banner() {
           Get rid of old and unused chrome tabs with a seemless tab management.
         </div>
         <div className={styles.twoBox}>
-          <div style={{"flex": 1}}>
-            <Button variant="outline-dark" className={styles.button}>Learn More</Button>
-          </div>
-          <div style={{"flex": 1}}>
+          <div style={{width: "240px"}}>
             <Button variant="dark" className={styles.button}>Download</Button>
+          </div>
+          <div style={{width: "240px"}}>
+            <Button variant="outline-dark" className={styles.button}>Learn More</Button>
           </div>
         </div>
       </div>
