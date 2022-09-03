@@ -8,7 +8,6 @@ import Pricing from '@components/Pricing'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
 export default function Home() {
   return (
     <div className="container">

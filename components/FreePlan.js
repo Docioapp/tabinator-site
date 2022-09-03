@@ -34,7 +34,9 @@ export default function FreePlan() {
         <div className={styles.strikeText} >Close All Duplicate Tabs</div>
         <div className={styles.strikeText}>Close All Old Tabs</div>
         <div className={styles.strikeText}>Upadates</div>
-        <Button variant="dark" className={styles.button}>Coming Soon</Button>
+        <a href="https://chrome.google.com/webstore/detail/tabinator-tab-cleaner/kenghmjbjhcbliadnbnjkjhajofjdeih">
+          <Button variant="dark" className={styles.button}>Download</Button>
+        </a>
       </div>
     </div>
   )

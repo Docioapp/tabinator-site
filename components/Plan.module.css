@@ -1,8 +1,9 @@
 .card {
   width: 240px;
-  height: 332px;
+  height: auto;
   background: #fff;
-  height: 20%;
+  padding: 12px;
+  margin: 16px;
 }
 
 .button {

@@ -19,3 +19,16 @@ body {
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
+
+.col {
+  padding: 0px !important;
+}
+
+.row>* {
+  flex-shrink: inherit !important;
+}
+
+.row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}

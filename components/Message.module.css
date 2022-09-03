@@ -6,4 +6,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 8%;
+  padding-right: 8%;
 }
