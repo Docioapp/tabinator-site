@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <>
       <footer className={styles.footer}>
-        Copyright 2022 Tabinator by Docio Cloud. All Rights Reserved.
+        Copyright 2022, Tabinator. All Rights Reserved.
       </footer>
     </>
   )
