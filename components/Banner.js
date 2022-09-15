@@ -16,11 +16,11 @@ export default function Banner() {
             Declutter Your Browser
           </Row>
           <Row className={styles.text}>
-            Get rid of old and unused chrome tabs with a seemless tab management.
+            Get rid of old and unused chrome tabs with a seamless tab management.
           </Row>
           <Row style={{"marginTop": "16px"}}>
             <Col>
-              <a href="#pricing"><Button variant="dark" className={styles.button}>Download</Button></a>
+              <a href="https://chrome.google.com/webstore/detail/tabinator-tab-cleaner/kenghmjbjhcbliadnbnjkjhajofjdeih"><Button variant="dark" className={styles.button}>Download</Button></a>
             </Col>
             <Col>
               <a href="#features"><Button variant="outline-dark" className={styles.button}>Learn More</Button></a>

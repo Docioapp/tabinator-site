@@ -5,7 +5,6 @@ import Banner from '@components/Banner'
 import Message from '@components/Message'
 import Support from '@components/Support'
 import Features from '@components/Features'
-import Pricing from '@components/Pricing'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -21,7 +20,6 @@ export default function Home() {
       <Banner/>
       <Message/>
       <Features/>
-      <Pricing/>
       <Support/>
       <Footer/>
     </div>

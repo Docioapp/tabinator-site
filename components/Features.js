@@ -23,12 +23,12 @@ export default function Features() {
                 <Row className={styles.featureText}>
                   Duplicate Tabs
                 </Row>
-                <Row className={styles.text}>
-                  There are at least 10 sites which one browses on daily basis which ultimately end stacking up into a pile of un-used tabs.
+                <Row className={styles.italic}>
+                  With plethora of tabs, its often easier to open a new tab instead of searching one resulting in opening of duplicate tabs.
                 </Row>
                 <br/>
                 <Row className={styles.text}>
-                  With are at least 10 sites which one browses on daily basis which ultimately end stacking up into a pile of un-used tabs.
+                  List down all the duplicate tabs open in the browser. Close all duplicates with a single click.
                 </Row>
               </Container>
             </Col>
@@ -39,10 +39,12 @@ export default function Features() {
           <Col md={6}>
             <Container style={{"width": "80%"}}>
               <Row className={styles.featureText}>Old & Unused Tabs</Row>
-              <Row className={styles.text}>
-                Every day we browse many tabs which end up as ‍to be read....‍
-                <br/>
-                Keep track of old tabs, close or bookmark them with ease.
+              <Row className={styles.italic}>
+                It maybe procastination or lack of time, do you tend to open tabs which are never closed for days or weeks?
+              </Row>
+              <br/>
+              <Row>
+                Keeps track of old tabs by calculating tab age. Older tabs are less likely to be browsed again.
               </Row>
             </Container>
           </Col>
@@ -50,6 +52,27 @@ export default function Features() {
             <img src="/OldTabs.png"/>
           </Col>
         </Row>
+      </Container>
+      <Container className={styles.section}>
+          <Row style={{"justifyContent": "center"}}>
+            <Col md={5} className={styles.snippet}>
+                <img src="/AllTabs.png"/>
+            </Col>
+            <Col md={5}>
+              <Container style={{"width": "80%"}}>
+                <Row className={styles.featureText}>
+                  Grouped by Website
+                </Row>
+                <Row className={styles.italic}>
+                  Tabs with same web host or belonging to the same website are grouped together.
+                </Row>
+                <br/>
+                <Row className={styles.text}>
+                  List down all the tabs grouped by website and provides a drill down view of all tabs belong to same website.
+                </Row>
+              </Container>
+            </Col>
+          </Row>
       </Container>
     </Container>
   )
